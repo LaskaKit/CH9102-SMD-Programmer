@@ -1,25 +1,17 @@
-![CH340 programmer](https://github.com/LaskaKit/CH340-Programmer/blob/main/img/CH340_programmer1.jpg)
+![CH9102 SMD programmer](https://github.com/LaskaKit/CH9102-SMD-Programmer/blob/main/img/top-1.jpg)
 
-# Univerzální programátor s USB-UART převodníkem CH340 určený k nahrávání firmware (nejen) do vývojových stavebnic LaskaKit. 
+# Miniaturní programátor pro (nejen) LaskaKit vývojové kity
 
-Hledáteli jednoduchý a levný programátor - USB-UART převodník - který můžete použít s vaší či naší deskou s ESP32, ESP8266 nebo ESP-C3, pak byste neměli přehlédnout právě tento. Tento převodník však můžete použít i pro desky jako je Arduino Mini, Mini Pro a to díky přepínači mezi 5V a 3.3V napájením, který na programátoru máme.
+Naše LaskaKit vývojové kity s ESP32 jsou opravdu populární. Zejména díky své vlastní nízké spotřebě v řádu uA. Ne každý ale potřebuje takhle úspornou desku - a právě pro tyhle bastlíře tu máme miniaturní CH9102 SMD programátor, který jednoduše napájíš na spodní část některého z našich vývojových kitů a máš tak k dispozici programátor přímo na desce.
 
-Programátor je založen na známém a odzkoušeném čipu CH340C. Na desce je také přepínač, kterým volíte jak napětí na pinu VCC, tak logickou úroveň sběrnice. Přepínač můžete přepnout buď na 5V či 3.3V. 
+Zatím ne všechny kity tuto možnost podporují, proto, prosím, zkontroluj, zda deska, kterou chceš koupit a chceš si připájet i tento programátor, má tuto možnost. Pomalu tuto vychytávku přidáváme do nových revizí stávajících desek.
 
-![CH340 programmer](https://github.com/LaskaKit/CH340-Programmer/blob/main/img/CH340_programmer2.jpg)
+Pokud chceš mít pořád co nejúspornější ESP32 desku, stále můžeš použít k programování například https://www.laskakit.cz/laskakit-ch9102-programmer-usb-c--microusb--uart/.
 
-S naším programátorem se také vyhnete neustálemu problému s hledáním vhodného kabelu. Buď použijete kabel s microUSB konektorem nebo USB-C - prostě to, co máte po ruce.
+Výhodou použití tohoto SMD programátoru je jednoduché nahrávání desky, nemusíš hledat jeho většího bráchu - https://www.laskakit.cz/laskakit-ch9102-programmer-usb-c--microusb--uart/
 
-CH340 programátor je pinout stejný jako mají naše vývojové desky programovatelné v Arduino IDE. Můžete jej ale použít i samostatně s vaší deskou či deskou jiného výrobce. 
+Nevýhodou je pak vyšší spotřeba, protože programátor je napájen ze samotného vývojového kitu, což ti ale ne vždycky může vadit. 
 
-Programátor má tři indikační LED - první signalizuje připojené napájení, druhá komunikaci na RX a třetí komunikaci na TX lince UART sběrnice. 
+K zakoupení je na naší stránce https://www.laskakit.cz/laskakit-ch9102-smd-programmer/
 
-Maximální výstupní proud při přepnutí 3.3V výstupu je 500mA, což je dostatečný proud pro napájení nejrůznějších desek od Arduino Uno až po desky s ESP32 či ESP8266.
-
-Kromě UART sběrnice a napájení jsou na konektoru k dispozici i piny DTR a RTS, ty se běžně používají pro přepnutí Wi-Fi a Bluetooth modulů ESP32 a ESP8266 do bootloader módu.
-
-Instalaci ovladačů pro čip CH340 jsem popsali v tomto článku https://blog.laskarduino.cz/instalace-ovladace-prevodniku-usb-na-uart-ch340/ 
-
-Github CH340 programátoru naleznete na https://github.com/LaskaKit/CH340-Programmer
-
-K zakoupení je na naší stránce https://www.laskarduino.cz/laskakit-ch340-programmer-usb-c--microusb--uart/ 
+![CH9102 SMD programmer](https://github.com/LaskaKit/CH9102-SMD-Programmer/blob/main/img/example-1.jpg)
